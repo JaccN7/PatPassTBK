@@ -52,7 +52,9 @@ $ npm install
 # Ejecuta la aplicación
 $ npm start
 
-# The server will initialize in the <http://localhost:3000>
+# La aplicación se ejecutará en el puerto:3000 - 
+# Para este proyecto se utilizo un alias para localhost correspondiente a http://JaccN7:3000/
+# Debe establecer su propio alias y reemplazarlo en el código (app.js y patpassSchema.js)
 ```
 
 
