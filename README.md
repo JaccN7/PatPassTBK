@@ -1,93 +1,61 @@
 <div align="center" id="top"> 
 </div>
 
-<h1 align="center">Patpass_tbk</h1>
+<h1 align="center">PatPass TBK</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/patpass_tbk?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/JaccN7/patpass_tbk?color=6a00ff">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/patpass_tbk?color=56BEB8">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/patpass_tbk?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/patpass_tbk?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/patpass_tbk?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/patpass_tbk?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/patpass_tbk?color=56BEB8" /> -->
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/JaccN7/patpass_tbk?color=6a00ff">
 </p>
 
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  Patpass_tbk 🚀 Under construction...  🚧
-</h4> 
-
-<hr> -->
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/JaccN7" target="_blank">Author</a>
 </p>
 
 <br>
 
 ## :dart: About ##
 
-Describe your project
+El proyecto consiste en probar la API REST PatPass (suscripción de pago automático) de [Transbank](https://transbankdevelopers.cl/referencia/patpasscomercio).
 
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
 
 ## :rocket: Technologies ##
 
-The following tools were used in this project:
+Las tecnologías usadas en este proyecto son:
 
-- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Javascript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+- [EJS](https://www.npmjs.com/package/ejs)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Antes de comenzar :checkered_flag:, necesitas tener instalado [Git](https://git-scm.com) y [Node](https://nodejs.org/en/).
 
 ## :checkered_flag: Starting ##
 
 ```bash
-# Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/patpass_tbk
+# Clona este proyecto
+$ git clone https://github.com/JaccN7/patpass_tbk
 
-# Access
+# Accede a la ruta del proyecto
 $ cd patpass_tbk
 
-# Install dependencies
-$ yarn
+# Instala las dependencias
+$ npm install
 
-# Run the project
-$ yarn start
+# Ejecuta la aplicación
+$ npm start
 
 # The server will initialize in the <http://localhost:3000>
 ```
 
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
 
 &#xa0;
 
-<a href="#top">Back to top</a>
+<a href="#top">Volver arriba</a>
