@@ -1,0 +1,23 @@
+<%- include('templates/header', title) %>
+    <div class="col-lg-12 mt-3 p-3">
+        <h5>El token: " <%= token %> " <% if (data.authorized) { %>
+                    se ha validado correctamente.</h5>
+        <h5>Se han generado lo siguientes datos:</h5><br>
+        <li>
+            authorized: <%= data.authorized %>
+        </li>
+        <li>
+            voucherUrl: <%= data.voucherUrl %>
+        </li><br>
+        <form action="<%= data.voucherUrl %>" method="post" name="tokenForm">
+            <input type="hidden" name="tokenComercio" value="<%= token %>">
+            <input type="submit" class="btn btn-success" value="Obtener Voucher">
+        </form>
+        <% } else { %>
+            no ha podido ser validado.</h5>
+            <% } %>
+
+    </div>
+    </body>
+
+    </html>

@@ -1,0 +1,59 @@
+<%- include('templates/header', title) %>
+    <div class="col-lg-5 mt-3 p-4"">
+        <div>
+            <h4>Cabeceras: </h4>
+
+            <pre class=" body-container">
+        <%= cabeceras %>
+            </pre>
+            <h4>Cuerpo de la Petición: </h4>
+            <div>
+                <pre class="body-container"><%= body %></pre>
+            </div>
+            <form action="/" method="post" class="mt-3 mx-auto">
+                <button type="submit" class="btn btn-dark">Inscribir</button>
+            </form>
+    </div>
+    </div>
+    <br>
+    <div class="col-lg-5 mt-1 p-3">
+        <% if (token !='' ) { %>
+            <h5>Se han generado lo siguientes datos:</h5><br>
+            <span>
+                <%= url %>
+            </span><br>
+            <span>
+                <%= token %>
+            </span><br><br>
+            <h5>Datos Tarjeta de Prueba: </h5>
+            <li>Visa (Aprobada) - 4051885600446623</li>
+            <li>Amex (Aprobada) - 370000000002032</li>
+            <li>Mastercard (Rechazada) - 5186059559590568</li><br>
+            <span>RUT Prueba: 11.111.111-1</span><br>
+            <span>Clave tarjeta: 123</span><br>
+            <% } %>
+
+                <% if (token !='' ) { %>
+                    <form action="<%= url %>" method="post" name="tokenForm">
+                        <input type="hidden" name="tokenComercio" value="<%= token %>"> <br>
+                        <input type="submit" class="btn btn-success" value="Inscribirse en Patpass Comercio">
+                    </form>
+                    <% } %>
+    </div>
+
+    <script>
+        //seleccionar todo los body container
+        var bodyContainer = document.querySelectorAll('.body-container');
+        //recorrer todos los body container
+        bodyContainer.forEach(function (element) {
+            //dar el formato de json con los saltos de lineas correspondientes
+            var body = JSON.stringify(JSON.parse(element.innerHTML), null, 2);
+            //asignar el nuevo valor al body container
+            element.innerHTML = body;
+
+        });
+
+    </script>
+    </body>
+
+    </html>
