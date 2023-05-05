@@ -4,9 +4,9 @@
 <h1 align="center">PatPass TBK</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/JaccN7/patpass_tbk?color=6a00ff">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/JaccN7/PatPassTBK?color=6a00ff">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/JaccN7/patpass_tbk?color=6a00ff">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/JaccN7/PatPassTBK?color=6a00ff">
 </p>
 
 
@@ -41,7 +41,7 @@ Antes de comenzar :checkered_flag:, necesitas tener instalado [Git](https://git-
 
 ```bash
 # Clona este proyecto
-$ git clone https://github.com/JaccN7/patpass_tbk
+$ git clone https://github.com/JaccN7/PatPassTBK
 
 # Accede a la ruta del proyecto
 $ cd patpass_tbk
